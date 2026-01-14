@@ -1,6 +1,6 @@
 ## Project Structure
 
-
+<pre>
 api_assignment/
 ├── main.py
 ├── database.py
@@ -11,3 +11,4 @@ api_assignment/
 ├── controllers/
 │   └── user_controller.py 
 └── postman_collection.json 
+</pre>
