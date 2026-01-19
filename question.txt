@@ -1,0 +1,27 @@
+Submit the GIT repo link as a submission on Openverse
+
+Build a Simple API
+
+  1.  Choose any backend stack you know (Rails, Express.js, Django, Phoenix, etc.).
+
+  2.  Create a new API project.
+
+  3.  Implement endpoints:
+
+GET /health → returns JSON:
+
+{ "status": "ok" }
+
+GET /users → returns a list of users (can be static/in-memory).
+
+POST /users → accepts JSON body to create a user with at least name & email.
+
+    4. Support:
+
+        Route params (if implementing GET /users/:id)
+
+        Query params (e.g., GET /users?role=admin)
+
+    5. Ensure correct HTTP Status codes (200, 201, 400).
+
+    6. Submit: routes file, controller code, sample Postman collection export.
